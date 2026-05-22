@@ -15,8 +15,16 @@
 #include"STM32F103C8_NVIC.h"
 #include"STM32F103C8_DMA.h"
 #include"STM32F103C8_watchdog.h"
+#include"STM32F103C8_i_watchdog.h"
+#include"STM32F103C8_FLASH.h"
+#include"STM32F103C8_BKP.h"
+#include"STM32F103C8_CRC_h"
+//电源控制
+#include"STM32F103C8_PWR.h"
 //时钟树
 #include"STM32F103C8_RCC.h"
+//RTC
+#include"STM32F103C8_RTC.h"
 //基本输入输出
 #include"STM32F103C8_GPIO.h"
 #include"STM32F103C8_AFIO.h"
